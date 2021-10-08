@@ -184,7 +184,6 @@ def mount32(line, listLines): #Função principal que atribui os respectivos val
                 word32 = dataBank(instruction) + dataBank(rs) + dataBank(rt) + offset
 
             elif instruction in ['sw','lw']: #sw e lw
-                print("entrou")
                 if isRegister(line[1]):
                     rt = line[1]
                 if line[2].isnumeric():
