@@ -1,0 +1,35 @@
+---------------------------------------------------------------------------------------------------------------------------------
+Este projeto contém 5 arquivos:
+- Assembler.exe - o executável do programa desenvolvido em linguagem Python;
+- Assembler_Codigo.py - o código do programa executável programado em linguagem Python;
+- Assembler_Codigo.txt - o código do programa transcrito para um arquivo de texto para melhor acesso;
+- Exemplo_Entrada.asm - um arquivo de entrada de exemplo programado em linguagem Assembly;
+- Exemplo_Saida.dat - um arquivo de saída que corresponde ao resultado da execução do programa com o arquivo Exemplo_Entrada.asm;
+---------------------------------------------------------------------------------------------------------------------------------
+1 - É necessário acessar o diretório em que este arquivo "Assembler.exe" se encontra através do Prompt de Comando ou Terminal
+de seu computador.
+- Caso o sistema operacional seja Windows 10.0, é possível ainda, através do comando Shift + Botão Direito do Mouse na
+pasta em que este executável se encontra, encontrar a opção de abertura do Windows PowerShell, por onde se pode executar o
+programa através do comando:
+
+".\Assembler " + arquivo_de_entrada.asm
+
+- No Terminal do sistema operacional Linux, o comando é o mesmo.
+- No Prompt de Comando do Windows, o programa pode ser executo através do comando:
+
+- "Assembler " + arquivo_de_entrada.asm
+
+2 - O arquivo de entrada .asm necessita estar inserido na pasta "projeto-oac". Caso este não esteja, é necessário especificar
+o diretório deste arquivo como parâmetro. Exemplo:
+
+- "Assembler C:\Usuários\arquivo_de_entrada.asm"
+
+3 - O arquivo de saída .dat será criado automaticamente na pasta em que se encontra o "Assembler.exe" com o nome "memoria.dat".
+É possível especificar um nome e um diretório para o mesmo passando-os como segundo parâmetro na execução. Exemplo:
+
+- "Assembler arquivo_de_entrada.asm C:\Usuários\arquivo_de_saida.dat"
+
+OBS: Caso seja encontrado algum erro no código lido do arquivo de entrada, este será retornado no Prompt de Comando ou
+Terminal de seu computador.
+
+Se preciso, consulte o arquivo, contido na pasta do projeto: "Exemplo_Entrada.asm".
